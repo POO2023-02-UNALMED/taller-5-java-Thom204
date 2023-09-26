@@ -59,7 +59,7 @@ public class Animal {
 
     //methods
     public String movimiento(){
-        return "Desplazarse";
+        return "desplazarse";
     }
     public static String totalPorTipo(){
         return "Mamiferos: "+Mamifero.cantidadMamiferos()+
