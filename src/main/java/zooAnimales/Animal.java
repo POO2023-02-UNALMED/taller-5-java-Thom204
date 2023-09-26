@@ -70,10 +70,10 @@ public class Animal {
     }
     public String toString(){
         if (zona==null) {
-            return "Mi nombre es "+this.nombre+"tengo una edad de "+this.edad+", habito en "+this.habitat+" y mi genero es " + this.genero;
+            return "Mi nombre es "+this.nombre+", tengo una edad de "+this.edad+", habito en "+this.habitat+" y mi genero es " + this.genero;
         }
         else{
-            return "Mi nombre es "+this.nombre+"tengo una edad de "+this.edad+", habito en "+this.habitat+" y mi genero es " +
+            return "Mi nombre es "+this.nombre+", tengo una edad de "+this.edad+", habito en "+this.habitat+" y mi genero es " +
                     this.genero+", la zona en la que me ubico es "+this.zona.getNombre()+", en el "+this.zona.getZoo().getNombre();
         }
     }
