@@ -25,7 +25,19 @@ public class Reptil extends Animal{
         listado.add(this);
         totalAnimales++;
     }
+    public void setColorEscamas(String color){
+        this.colorEscamas=color;
+    }
+    public void setLargoCola(int largo){
+        this.largoCola=largo;
+    }
 
+    public String getColorEscamas(){
+        return this.colorEscamas;
+    }
+    public int getLargoCola(){
+        return this.largoCola;
+    }
     //methods
     public static int cantidadReptiles(){
         return Reptil.listado.size();

@@ -25,7 +25,18 @@ public class Mamifero extends Animal{
         listado.add(this);
         totalAnimales++;
     }
-
+    public void setPatas(int patas){
+        this.patas=patas;
+    }
+    public void setPelaje(boolean pelaje){
+        this.pelaje=pelaje;
+    }
+    public int getPatas(){
+        return this.patas;
+    }
+    public boolean isPelaje(){
+        return this.pelaje;
+    }
     //methods
     public static int cantidadMamiferos(){
         return listado.size();

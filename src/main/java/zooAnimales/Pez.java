@@ -26,7 +26,19 @@ public class Pez extends Animal{
         listado.add(this);
         totalAnimales++;
     }
+    public void setColorEscamas(String color){
+        this.colorEscamas=color;
+    }
+    public void setCantidadAletas(int aletas){
+        this.cantidadAletas=aletas;
+    }
 
+    public String getColorEscamas(){
+        return this.colorEscamas;
+    }
+    public int getCantidadAletas(){
+        return this.cantidadAletas;
+    }
     //methods
     public static int cantidadPeces(){
         return listado.size();

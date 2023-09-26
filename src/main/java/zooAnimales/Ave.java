@@ -23,7 +23,12 @@ public class Ave extends Animal{
         listado.add(this);
         totalAnimales++;
     }
-
+    public void setColorPlumas(String color){
+        this.colorPlumas=color;
+    }
+    public String getColorPlumas(){
+        return this.colorPlumas;
+    }
     //methods
     public static int cantidadAves(){
         return listado.size();

@@ -27,6 +27,20 @@ public class Anfibio extends Animal{
         totalAnimales++;
     }
 
+    public void setColorPiel(String colorPiel) {
+        this.colorPiel = colorPiel;
+    }
+    public void setVenenoso(boolean venenoso){
+        this.venenoso=venenoso;
+    }
+
+
+    public String getColorPiel() {
+        return this.colorPiel;
+    }
+    public boolean isVenenoso() {
+        return this.venenoso;
+    }
     //methods
     public static int cantidadAnfibios(){
         return listado.size();
